@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>lachisa</title>
+    
+ 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuffie - Kinetic Interface v4</title>
+   
+    <link rel="stylesheet" href="Bottstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    
+  </head>
+<body>
+
+<div class="container-fluid">
+    <div class="center-panel col-lg-12 col-md-12 col-12">
+
+    
+    <div class="canvas-container" id="main-canvas">
+
+            <div class="nihility-bg-text">NIHILITY NIHILITY NIHILITY</div>
+    </div>
+           </div>
+        <div class="canvas-dot-overlay"></div>
+        <div class="ui-corner-bracket top-left"></div>
+        <div class="ui-corner-bracket bottom-right"></div>
+<div class="row">
+    
+
+        
+            <canvas id="petals-canvas"></canvas>
+        
+        <!-- CANVAS PARA EL EFECTO DE FLORES DELICADAS -->
+  
+        
+        <!-- PANEL IZQUIERDO -->
+               <div class="left-panel col-lg-5 col-md-5 col-12">
+
+    
+            <div class="hero-quote-header">
+                This Is My First Website!
+                <span class="quote-jp">Donate Me</span>
+            </div>
+
+            <div class="main-title-group">
+                <span class="japanese-sub">MANI</span>
+                <h1 class="main-kanji">マニ</h1>
+                <br>
+                <div class="numeric-badge">09219266047</div>
+
+                <div class="music-player" id="player-card">
+                    <audio id="audio-element" src="https://www.dropbox.com/scl/fi/ersb17v6uwmcelmvapgxp/Fall-To-Hell-DOLLWAVE-Darkwave-Lyrics-visualizer.mp3?rlkey=3pfivpdswvsnwxwzqnix01wnl&st=vs1tmdms&dl=1"></audio>
+                    
+                    <div class="player-info">
+                        <span class="track-title" id="track-name">Fall To Hell - DOLLWAVE</span>
+                        <span class="time-display" id="time-track">0:00 / 0:00</span>
+                    </div>
+                    
+                    <div class="progress-container" id="progress-cont">
+                        <div class="progress-bar" id="progress-actual"></div>
+                    </div>
+                    
+                    <div class="player-controls">
+                        <button class="play-btn" id="play-trigger">Play</button>
+                        <div class="volume-container">
+                            <span class="volume-label">VOL</span>
+                            <input type="range" class="volume-slider" id="vol-slider" min="0" max="1" step="0.05" value="0.5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-footer">
+                <p class="game-meta">My Favorite Song:</p>
+                <a href="https://coffeete.ir/Mani2008" class="tag-pill">Donate Me <i class="fa-pixel fa-regular fa-heart" style="color: rgb(255, 0, 0);"></i></a>
+            </div>
+
+</div>
+
+        <div class="center-panel col-lg-5 col-md-5 col-12">
+
+        <!-- PANEL CENTRAL -->
+       
+            <div class="art-window">
+               
+                <span class="large-bg-kanji">古</span>
+                <div class="tech-overlay">
+                    <span>STATUS: ACTIVE</span>
+                    <span>GLASS: JINSHI_DARK</span>
+                    <div class="live-pulse-bar"></div>
+                </div>
+            </div>
+            
+            <!-- Elemento Raíz del Personaje asignado para Parallax Suave -->
+            <div class="character-root" id="character-layer">
+                <img src="MiniRaptor.png" alt="Render" class="character-img">
+            </div>
+
+</div>
+        <div class="right-panel col-lg-2 col-md-2 col-12">
+
+        <!-- PANEL DERECHO -->
+   
+            <a href="https://t.me/VXWOI" class="pill-box">Telegram<i class="fa-brands fa-telegram" style="color: rgb(255, 0, 0);"></i></a>
+            <div class="vertical-text-wrap">
+                <span class="v-kanji-title">18</span>
+                <span class="v-latin-sub">Years</span>
+                <span class="diamond">✦</span>
+                <span class="v-latin-sub">Developer</span>
+            </div>
+            <div class="panel-footer-stamp">
+                <div style="color: rgba(255,255,255,0.2); font-size: 10px;">—</div>
+                <p class="micro-japanese">開発者</p>
+            </div>
+
+</div>
+    </div>
+</div>
+
+
+    
+  </body>
+  <script src="script.js"></script>
+  <script src="Bottstrap/bootstrap.bundle.js"></script>
+  <script src="https://kit.fontawesome.com/016778f3ef.js" crossorigin="anonymous"></script>
+</html>
